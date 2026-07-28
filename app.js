@@ -28,7 +28,7 @@ function btnSearchOnAction(){
                 <h1>${data.location.name}</h1>
                 <img src="${data.current.condition.icon}" alt>
                 <p>${data.location.country}</p>
-                <p>${data.current.temp_}</p>
+                <p>${data.current.temp_c}</p>
             </div>
     `
     
