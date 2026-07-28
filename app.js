@@ -25,7 +25,7 @@ function btnSearchOnAction(){
     document.getElementById("contentSection").innerHTML=`
                 <div>
                 <h1>${data.current.condition.text}</h1>
-                <h1>${data.location.name}</h1>
+                <h1>${data.location.nam}</h1>
                 <img src="${data.current.condition.icon}" alt>
                 <p>${data.location.country}</p>
                 <p>${data.current.temp_c}</p>
