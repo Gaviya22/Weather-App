@@ -22,7 +22,7 @@ function btnSearchOnAction(){
     fetch(`${baseUrl}/current.json?key=${apiKey}&q=${txtUserSearchValue}`).then(res=>res.json()).then(data=>{
     console.log(data);
 
-    document.getElementById("contentSectio").innerHTML=`
+    document.getElementById("contentSection").innerHTML=`
                 <div>
                 <h1>${data.current.condition.text}</h1>
                 <h1>${data.location.name}</h1>
